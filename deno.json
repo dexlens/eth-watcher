@@ -1,0 +1,16 @@
+{
+    "name": "@dexlens/eth-watcher",
+    "version": "0.0.1",
+    "exports": "./src/main.ts",
+    "description": "DEXL Eth Watcher",
+    "tasks": {
+      "dev": "deno run --watch --allow-all src/main.ts"
+    },
+    "imports": {
+      "@std/assert": "jsr:@std/assert@1"
+    },
+    "publish": {
+      "include": ["LICENSE", "README.md", "src/**/*"],
+      "exclude": [".env", "backups"]
+    }
+  }
