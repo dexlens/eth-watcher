@@ -9,3 +9,10 @@
 export {
     setupEthWatcherWebsocket
 } from "./shared/functions/setupEthWatcherWebsocket.ts";
+
+/**
+ * Open Eth Watcher Websocket and subscribe to the ETH Dex signals
+ */
+export {
+    openEthWatcherWebsocket
+} from "./shared/functions/openEthWatcherWebsocket.ts";
