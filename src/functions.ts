@@ -16,3 +16,24 @@ export {
 export {
     openEthWatcherWebsocket
 } from "./shared/functions/openEthWatcherWebsocket.ts";
+
+/**
+ * Parse Chain Events
+ */
+export {
+    parseChainEvents
+} from "./shared/functions/parseChainEvents.ts";
+
+/**
+ * Send Message to Telegram
+ */
+export {
+    sendMessageToTelegram
+} from "./shared/functions/sendMessageToTelegram.ts";
+
+/**
+ * Format Value to Currency
+ */
+export {
+    formatValueToCurrency
+} from "./shared/functions/formatValueToCurrency.ts";
