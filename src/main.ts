@@ -7,12 +7,10 @@ dotenv.config();
 const bot = new Bot(process.env.TELE_BOT_TOKEN);
 import {
     setupEthWatcherWebsocket,
-    openEthWatcherWebsocket
+    openEthWatcherWebsocket,
+    parseChainEvents,
+    sendMessageToTelegram
 } from "./functions.ts";
-import { parseChainEvents } from "./shared/functions/parseChainEvents.ts";
-import { formatValueToCurrency } from "./shared/functions/formatValueToCurrency.ts";
-import { sendMessageToTelegram } from "./shared/functions/sendMessageToTelegram.ts";
-
 /**
  * Here we define some global variables
  */
